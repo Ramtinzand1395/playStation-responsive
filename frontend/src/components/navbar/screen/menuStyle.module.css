@@ -1,0 +1,25 @@
+.megaitem:hover {
+  transform: translateX(0);
+}
+
+.megaitem {
+  position: absolute;
+  top: 15vh;
+  left: 0;
+  width: 100%;
+  transform: translateX(100%);
+  height: auto;
+  transition: all .5s ease-in-out;
+}
+
+.megamenu:hover ~ .megaitem {
+  transform: translateX(0);
+}
+
+.sbtn{
+  background-color: aqua;
+}
+
+.fbtn:hover + .sbtn, .fbtn:hover ~ .sbtn {
+  background-color: red !important;
+}

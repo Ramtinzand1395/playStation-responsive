@@ -1,0 +1,9 @@
+.menuclose{
+    transform: translateX(100%);
+    transition: all 1s ease-in-out;
+}
+.menuopen{
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+
+}
