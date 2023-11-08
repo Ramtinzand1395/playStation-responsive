@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { FiMenu } from "react-icons/fi";
-import logo from "../../../assets/logo.jpeg";
-import { FaShoppingBag, FaUser } from "react-icons/fa";
+import logo from "../../../assets/photo1699421383 copy.png";
 import MobileMenuIthem from "./MobileMenuIthem";
 
 const MobileNav = () => {

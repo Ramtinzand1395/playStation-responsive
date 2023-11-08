@@ -3,7 +3,7 @@ import {
   FaShoppingBag,
   FaUser
 } from "react-icons/fa";
-import logo from "../../../assets/logo.jpeg";
+import logo from "../../../assets/photo1699421383 copy.png";
 import style from "./menuStyle.module.css";
 import { megabtn, navbarLinks, secondmegabtn } from "../navbarData";
 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
       {/**logo */}
       <div className="items-center flex justify-end ">
-        <img src={logo} className="w-10 h-10" alt="logo" />
+        <img src={logo} className="w-10 h-10 rounded-full" alt="logo" />
         <h2 className={`text-white font-tanha  mx-5`}>گیم شارک</h2>
       </div>
       {/**logo-end */}
