@@ -32,7 +32,7 @@ const ScreenNavbar = () => {
     <div
       className={`${
         navState ? " bg-black text-white bg-opacity-70 " : ""
-      } w-full h-[15vh] items-center  fixed z-10 grid grid-cols-12 gap-5 `}
+      } w-full h-[15vh] items-center  fixed z-40 grid grid-cols-12 gap-5 `}
     >
       {/**btn */}
       <div className="justify-end flex col-span-2">

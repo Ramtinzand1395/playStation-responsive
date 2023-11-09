@@ -14,7 +14,7 @@ const Offcomponent = () => {
   return (
     <div className="flex items-center gap-2">
       {/**slider-img */}
-      <div className="flex items-center justify-center flex-col h-[50vh] bg-red-500 w-40 p-5 border-2 border-black">
+      <div className="flex items-center justify-center flex-col h-[60vh] bg-red-500 w-40 p-5 border-2 border-black">
         <img src={takhfif} className="" alt="" />
         <button className="bg-green-200 rounded-lg py-1 px-4 text-sm whitespace-nowrap">
           مشاهده همه

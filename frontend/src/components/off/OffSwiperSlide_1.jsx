@@ -3,7 +3,7 @@ import { FaHeart } from "react-icons/fa";
 const OffSwiperSlide_1 = ({ item }) => {
   return (
     <>
-      <div className=" bg-gray-100 h-[50vh] w-full rounded-lg font-tanha">
+      <div className=" bg-gray-100 h-auto w-full rounded-lg font-tanha">
         {/**top */}
         <div className="flex items-center justify-around mt-2">
           <FaHeart />
@@ -28,7 +28,7 @@ const OffSwiperSlide_1 = ({ item }) => {
             <p className="text-start text-black text-base">{item.price}</p>
             <p className="text-start text-red-500 text-base">{item.store}</p>
           </div>
-          <button type="button" className="py-1 px-4 rounded-lg bg-green-500 mt-2 text-white">
+          <button type="button" className="py-1 px-4 rounded-lg bg-green-500 my-2 text-white">
             مشاهده
           </button>
         </div>
