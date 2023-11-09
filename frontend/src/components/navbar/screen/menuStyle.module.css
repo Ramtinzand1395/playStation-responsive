@@ -1,8 +1,19 @@
 .megaitem:hover {
   transform: translateX(0);
 }
-
+.megaitemScroll:hover {
+  transform: translateX(0);
+}
 .megaitem {
+  position: absolute;
+  top: 22vh;
+  left: 0;
+  width: 100%;
+  transform: translateX(100%);
+  height: auto;
+  transition: all .5s ease-in-out;
+}
+.megaitemScroll {
   position: absolute;
   top: 15vh;
   left: 0;
@@ -11,11 +22,12 @@
   height: auto;
   transition: all .5s ease-in-out;
 }
-
 .megamenu:hover ~ .megaitem {
   transform: translateX(0);
 }
-
+.megamenu:hover ~ .megaitemScroll {
+  transform: translateX(0);
+}
 .sbtn{
   background-color: aqua;
 }

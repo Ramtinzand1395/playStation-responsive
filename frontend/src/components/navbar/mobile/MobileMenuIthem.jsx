@@ -1,4 +1,12 @@
-import { FaArrowDown, FaShoppingBag, FaUser } from "react-icons/fa";
+import {
+  FaArrowDown,
+  FaInstagram,
+  FaSearch,
+  FaShoppingBag,
+  FaTelegram,
+  FaTwitch,
+  FaUser,
+} from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { megabtn, navbarLinks } from "../navbarData";
 import style from "./mobile.module.css";
@@ -13,18 +21,21 @@ const MobileMenuIthem = ({ OpenMobileMenu, setOpenMobileMenu }) => {
       }`}
     >
       <div
-        className={` w-7/12 h-screen bg-white text-black font-tanha text-base flex flex-col items-start  p-2 ${
+        className={` w-7/12 h-screen bg-white text-black font-tanha text-base flex flex-col items-start p-2 ${
           OpenMobileMenu ? style.menuclose : style.menuopen
         }`}
       >
         <div className="flex items-center justify-between border-b-black border-b-2 w-full pb-2">
           {/**icons */}
           <div className="flex items-center ">
-            <button className="rounded-full mx-2 bg-gray-600 ">
+            <button className="rounded-full bg-gray-600 ">
               <FaUser className="w-8 h-8 p-2" color="white" />
             </button>
-            <button className="rounded-full bg-gray-600">
+            <button className="rounded-full  mx-2 bg-gray-600">
               <FaShoppingBag className="w-8 h-8 p-2" color="white" />
+            </button>
+            <button className="rounded-full bg-gray-600">
+              <FaSearch className="w-8 h-8 p-2" color="white" />
             </button>
           </div>
           {/**icons-end */}
@@ -42,13 +53,9 @@ const MobileMenuIthem = ({ OpenMobileMenu, setOpenMobileMenu }) => {
                 onClick={() => item.submenu && setOpenSubMenu(!OpenSubMenu)}
               >
                 {item.title}
-                {item.submenu && (
-                  <FaArrowDown
-                    className="mr-2"
-                  />
-                )}
+                {item.submenu && <FaArrowDown className="mr-2" />}
               </button>
-              {OpenSubMenu && item.submenu &&(
+              {OpenSubMenu && item.submenu && (
                 <div className="ml-5">
                   {megabtn.map((subitem) => (
                     <button
@@ -64,6 +71,13 @@ const MobileMenuIthem = ({ OpenMobileMenu, setOpenMobileMenu }) => {
           ))}
         </div>
         {/**btns-end */}
+        {/**sosial */}
+        <div className="flex items-center justify-center mt-5">
+          <FaInstagram className="w-8 h-8 mx-2 hover:bg-white rounded-full text-red-500 p-1" />
+          <FaTelegram className="w-8 h-8 mx-2 hover:bg-white rounded-full text-blue-500 p-1" />
+          <FaTwitch className="w-8 h-8 mx-2 hover:bg-white rounded-full text-green-500 p-1" />
+        </div>
+        {/**sosial-end */}
       </div>
     </div>
   );
