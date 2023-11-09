@@ -1,8 +1,7 @@
-import psale5 from "../../assets/2.jpg";
-import psale2 from "../../assets/_b7ea3a80-9680-441b-bf90-a17d460e3ff0.jpg";
-import psale3 from "../../assets/_a5e1b534-988b-4411-aee0-30150a646edc.jpg";
-import psale4 from "../../assets/_921ddc0b-c335-4b1f-b7e5-f0091f85545e.jpg";
 import psale1 from "../../assets/46342dd9needforspeed™mostwantedaa.jpg";
+import psale4 from "../../assets/_921ddc0b-c335-4b1f-b7e5-f0091f85545e.jpg";
+import psale3 from "../../assets/_a5e1b534-988b-4411-aee0-30150a646edc.jpg";
+import psale2 from "../../assets/_b7ea3a80-9680-441b-bf90-a17d460e3ff0.jpg";
 
 export const boxitem = [
   {
