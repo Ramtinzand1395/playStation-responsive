@@ -3,7 +3,7 @@ import style from "./hero.module.css";
 const Hero = () => {
   return (
     <div
-      className={`${style.bg} relative flex flex-col items-center justify-center`}
+      className={`${style.bg} relative flex flex-col items-center justify-center mb-10 md:mb-32 `}
     >
       <h2
         className={` text-white font-bold text-xl md:text-7xl ${style.wraper}`}

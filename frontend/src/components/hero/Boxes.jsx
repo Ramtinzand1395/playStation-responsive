@@ -3,7 +3,7 @@ import { boxitem } from "./boxItem";
 
 const Boxes = () => {
   return (
-    <div className="absolute top-[90vh] w-[90vw] h-auto bg-white rounded-lg z-10 border ">
+    <div className="absolute top-[90vh] w-[90vw] h-auto bg-white rounded-lg z-10 border hidden md:block">
       <div className="grid grid-cols-6 gap-5">
         {boxitem.map((item) => (
           <div
