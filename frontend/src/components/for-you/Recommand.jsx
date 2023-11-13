@@ -1,6 +1,6 @@
 import "@splidejs/splide/css";
 import { FaHeart, FaStar } from "react-icons/fa";
-import { boxitem } from "./SliderItems";
+import { boxitem } from "./sliderItems";
 const Recommand = () => {
   
   const renderStars = (starCount) => {
