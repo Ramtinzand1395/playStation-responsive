@@ -1,0 +1,48 @@
+.cardcontainer {
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  left: 100%;
+  transition: 2s;
+}
+.cardbody:hover .cardcontainer {
+  left: 0;
+  transform: translateX(0%);
+}
+.top {
+  background-image: url("../../assets/46342dd9needforspeed™mostwantedaa.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+
+}
+
+.botoom1 {
+  background-image: url("../../assets/2.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+}
+.botoom2 {
+  background-image: url("../../assets/3.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+}
+.botoom3 {
+  background-image: url("../../assets/_136b69a6-94a2-4867-9cf7-f4091697695c.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+}
+.shadow {
+  box-shadow: 0px -23px 10px 0px rgba(0, 0, 0, 0.9);
+}
+

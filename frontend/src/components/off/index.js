@@ -1,38 +1,81 @@
-import {allbirds,download,images,men,red} from "../../assets/index"
+import { allbirds, download, images, men, red } from "../../assets/index";
 export const data = [
-    {
-        image:allbirds,
-        title:"پلیور مردانه یقه 7",
-        price:" 70000 تومان",
-        store:"5 عدد در انبار",
-        percent:"10%"
-    },
-    {
-        image:download,
-        title:"پلیور مردانه یقه 7",
-        price:" 70000 تومان",
-        store:"5 عدد در انبار",
-        percent:"40%"
-    },
-    {
-        image:images,
-        title:"پلیور مردانه یقه 7",
-        price:" 70000 تومان",
-        store:"5 عدد در انبار",
-        percent:"20%"
-    },
-    {
-        image:men,
-        title:"پلیور مردانه یقه 7",
-        price:" 70000 تومان",
-        store:"5 عدد در انبار",
-        percent:"12%"
-    },
-    {
-        image:red,
-        title:"پلیور مردانه یقه 7",
-        price:" 70000 تومان",
-        store:"5 عدد در انبار",
-        percent:"55%"
-    },
-]
+  {
+    image: allbirds,
+    title: " موست وانتد",
+    price: 70000,
+    store: "5 عدد در انبار",
+    percent: 10,
+  },
+
+  {
+    image: download,
+    title: "خدای جنگ",
+    price: 47500,
+    store: "2 عدد در انبار",
+    percent: 45,
+  },
+  {
+    image: images,
+    title: "اواتار",
+    price: 98000,
+    store: "1 عدد در انبار",
+    percent: 70,
+  },
+  {
+    image: men,
+    title: "پسر خوانده",
+    price: 12400,
+    store: "10 عدد در انبار",
+    percent: 38,
+  },
+  {
+    image: red,
+    title: "نفس من",
+    price: 753000,
+    store: "15 عدد در انبار",
+    percent: 23,
+  },
+  {
+    image: allbirds,
+    title: "من نفرت انگیز",
+    price: 74000,
+    store: "2 عدد در انبار",
+    percent: 49,
+  },
+  {
+    image: download,
+    title: "اسب",
+    price: 70000,
+    store: "12 عدد در انبار",
+    percent: 35,
+  },
+  {
+    image: images,
+    title: "من یا تو",
+    price: 79000,
+    store: "5 عدد در انبار",
+    percent: 25,
+  },
+  {
+    image: men,
+    title: "شب هستم",
+    price: 15000,
+    store: "1 عدد در انبار",
+    percent: 20,
+  },
+  {
+    image: red,
+    title: "شب و روز ",
+    price: 70000,
+    store: "5 عدد در انبار",
+    percent: 12,
+  },
+  {
+    image: red,
+    title: "کراش",
+    price: 70000,
+    store: "5 عدد در انبار",
+    percent: 55,
+  },
+];

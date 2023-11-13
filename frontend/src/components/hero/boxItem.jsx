@@ -12,7 +12,7 @@ export const boxitem = [
     title: "بازی ها",
     number: 1024,
     icon: (
-      <PiBooksDuotone className="md:w-10 md:h-10 w-5 h-5  text-teal-500 group-hover:text-white" />
+      <PiBooksDuotone className="md:w-10 md:h-10 w-5 h-5  text-[#280659] group-hover:text-white" />
     ),
   },
   {
@@ -20,7 +20,7 @@ export const boxitem = [
     title: "پلی استیشن 5",
     number: 25420,
     icon: (
-      <PiAirplane className="md:w-10 md:h-10 w-5 h-5  text-teal-500 group-hover:text-white" />
+      <PiAirplane className="md:w-10 md:h-10 w-5 h-5  text-[#280659] group-hover:text-white" />
     ),
   },
   {
@@ -28,7 +28,7 @@ export const boxitem = [
     title: "پلی استیشن 4",
     number: 124,
     icon: (
-      <PiAirplayFill className="md:w-10 md:h-10 w-5 h-5  text-teal-500 group-hover:text-white" />
+      <PiAirplayFill className="md:w-10 md:h-10 w-5 h-5  text-[#280659] group-hover:text-white" />
     ),
   },
   {
@@ -36,7 +36,7 @@ export const boxitem = [
     title: "ایکس باکس",
     number: 54123,
     icon: (
-      <PiFactoryThin className="md:w-10 md:h-10 w-5 h-5  text-teal-500 group-hover:text-white" />
+      <PiFactoryThin className="md:w-10 md:h-10 w-5 h-5  text-[#280659] group-hover:text-white" />
     ),
   },
   {
@@ -44,7 +44,7 @@ export const boxitem = [
     title: "مقالات",
     number: 1234432,
     icon: (
-      <FiLogIn className="md:w-10 md:h-10 w-5 h-5  text-teal-500 group-hover:text-white" />
+      <FiLogIn className="md:w-10 md:h-10 w-5 h-5  text-[#280659] group-hover:text-white" />
     ),
   },
   {
@@ -52,7 +52,7 @@ export const boxitem = [
     title: "لوازم جانبی",
     number: 74956,
     icon: (
-      <FaInfoCircle className="md:w-10 md:h-10 w-5 h-5  text-teal-500 group-hover:text-white" />
+      <FaInfoCircle className="md:w-10 md:h-10 w-5 h-5  text-[#280659] group-hover:text-white" />
     ),
   },
 ];

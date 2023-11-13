@@ -8,7 +8,7 @@ import {
   FaUser,
 } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
-import { megabtn, navbarLinks } from "../navbarData";
+import { navbarLinks } from "../navbarData";
 import style from "./mobile.module.css";
 import { useState } from "react";
 

@@ -1,49 +1,27 @@
-import PropTypes from "prop-types";
-import { FaHeart } from "react-icons/fa";
+import React from "react";
+
 const OffSwiperSlide_1 = ({ item }) => {
   return (
-    <>
-      <div className=" bg-gray-100 h-auto w-full rounded-lg font-tanha">
-        {/**top */}
-        <div className="flex items-center justify-around mt-2">
-          <FaHeart />
-          <span className="text-xs text-white font-semibold bg-red-500 rounded-lg py-1 px-4 ">
-            {item.percent}
-          </span>
-        </div>
-        {/**top-end */}
-
-        {/**img */}
-        <div className="mt-2 px-4">
-          <img src={item.image} className="rounded-lg" alt="" />
-        </div>
-        {/**img-end */}
-
-        {/**cardIthem */}
-        <div className="mt-2 px-2">
-          <p className="text-center font-bold text-black text-xl">
-            {item.title}
-          </p>
-          <div className="flex items-center justify-around mt-2">
-            <p className="text-start text-black text-base">{item.price}</p>
-            <p className="text-start text-red-500 text-base">{item.store}</p>
-          </div>
-          <button type="button" className="py-1 px-4 rounded-lg bg-green-500 my-2 text-white">
-            مشاهده
-          </button>
-        </div>
-        {/**cardIthem-end */}
+    <div className="p-3 font-tanha">
+      <img src={item.image} className="rounded-lg h-[15vh] w-full" alt="" />
+      <h3 className="text-base mt-2 text-center">{item.title}</h3>
+      <span className="text-red-500 text-xs">{item.store}</span>
+      <div className="flex items-center justify-between mt-2">
+        <span className="text-xs text-white font-semibold bg-red-500 rounded-lg py-1 px-2 ">
+          {item.percent} %
+        </span>
+        <p className="text-start font-bold text-black text-xs">
+          {Math.ceil(item.price / item.percent)}تومان
+        </p>
       </div>
-    </>
+
+      <div className="flex items-center justify-end">
+        <p className="text-start line-through font-bold text-gray-500 text-xs">
+          {item.price}
+        </p>
+      </div>
+    </div>
   );
 };
-OffSwiperSlide_1.propTypes = {
-  item: PropTypes.shape({
-    title: PropTypes.string,
-    price: PropTypes.string,
-    store: PropTypes.string,
-    percent: PropTypes.string,
-    image: PropTypes.string,
-  }),
-};
+
 export default OffSwiperSlide_1;
